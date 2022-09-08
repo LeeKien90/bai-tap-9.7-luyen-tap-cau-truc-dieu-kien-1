@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  //bài 1: nhập 2 số a và b, xem 2 số có chia hết cho nhau không
+  //
+  // let a = prompt('só A');
+  // let b = prompt('số B')
+  //
+  // if (a%b == 0) {
+  //     alert('A chia hêết cho B')
+  // } else {
+  //     alert('A không chia hết cho B')
+  // }
+
+  //bài 2: Nhập tuổi và in ra kết quả nếu tuổi học sinh đó không đủ điều kiện vào học lớp 10.
+  //
+  // let age = prompt('Số tuổi');
+  //
+  // if (age >= 15) {
+  //     alert('Đủ điều kiện vào lớp 10')
+  // } else {
+  //     alert('Không đủ tuổi vào lớp 10')
+  // }
+
+//  bài 3: Nhập một số nguyên bất kỳ và in kết quả ra màn hình để nói cho người dùng biết số đó là lớn hay nhỏ hơn 0
+
+// let soNguyen = prompt('Số bất kỳ')
+//
+//   if (soNguyen > 0) {
+//       alert(`${soNguyen} lớn hơn 0`)
+//   } else if (soNguyen < 0) {
+//       alert(`${soNguyen} nhỏ hơn 0`)
+//   } else {
+//       alert(`Số nguyên bằng 0`)
+//   }
+
+//  bài 4: Nhập 3 số nguyên và tìm giá trị lớn nhất của ba số nguyên đó
+//   let a = prompt('Số nguyên 1');
+//   let b = prompt('Số nguyên 2');
+//   let c = prompt('Số nguyên 3');
+//
+//   let lonNhat = a > b && a > c ? "A là số nguyên lớn nhất" : b > a && b > c ? "B là số nguyên lớn nhất" : "C là số lớn nhất";
+//   alert(lonNhat);
+
+//  bài 5: Xếp hạng học lực của học sinh dựa trên các điểm bài kiểm tra, điểm thi giữa kỳ, điểm thi cuối kỳ
+//
+//   let diemKiemTra = +prompt('Điểm bài kiểm tra');
+//   let diemGiuaKy = +prompt('Điểm thi giữa kỳ');
+//   let diemCuoiKy = +prompt('Điểm thi cuối kỳ');
+//   let diemTrungBinh = (diemCuoiKy + diemGiuaKy + diemKiemTra) / 3;
+//
+//   if (diemTrungBinh > 8) {
+//       alert('Học sinh giỏi')
+//   } else if (diemTrungBinh < 8 && diemTrungBinh > 5) {
+//       alert("Học sinh khá")
+//   } else {
+//       alert('Học sinh trung bình kém')
+//   }
+//   console.log(diemTrungBinh)
+
+//  bài 6: Tính hoa hồng nhận được tuỳ theo mức doanh số bán hàng`
+
+  let tienHang = +prompt('Số tiền hàng');
+  let hoaHong = tienHang / 10
+  let tongTien = tienHang <= 10000000 ? tienHang : tienHang + hoaHong;
+      alert(tongTien)
+</script>
+</body>
+</html>
